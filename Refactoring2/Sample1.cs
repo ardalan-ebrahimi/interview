@@ -32,12 +32,12 @@ public class Robot : IWorker
 
     public void Eat()
     {
-        Console.WriteLine("I don't eat.");
+        throw new Exception("I don't eat");
     }
 
     public void Sleep()
     {
-        Console.WriteLine("I don't sleep.");
+        throw new Exception("I don't sleep.");
     }
 }
 

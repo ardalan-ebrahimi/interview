@@ -9,5 +9,4 @@ export class Product {
 }
 export class User {
     age: number;
-    
 }
